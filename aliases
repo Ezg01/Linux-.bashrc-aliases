@@ -1,0 +1,51 @@
+#update .bashrc file for the user or system
+
+#lazy alias for most utilized functions
+
+#search for pattern
+alias s='egrep --color=auto'
+#list files, human readable
+alias l='ls -h -l --color=auto'
+#Clear terminal
+alias c='clear'
+#move files to trash
+alias rm='rm'
+#Create folder
+alias md='mkdir'
+#move folder to trash
+alias rmd='rmdir'
+#Create file
+alias t='touch'
+#Print all system info
+alias cpu='uname -a'
+#find files by name
+alias ff='locate file'
+#Configure a network interface
+alias if='ifconfig'
+#Exit terminal
+alias e='exit'
+#shutdown the system and reboot
+alias sd='shutdown -r'
+#reduce file size
+alias g='gzip'
+#Creates multiple files to one
+alias gun='gunzip'
+#Create archive
+alias tar='tar cvf'
+#uncompress an archive
+alias untar='tar xvf'
+alias ch='cheat -s'
+alias cl='cheat -l'
+#show less lines as specified
+alias le='less'
+#clear trash and overwtite files 
+#choose appropriate location
+alias rmt='sudo rm -r ~/.local/share/Trash/files/'
+#overwtite 3 times with zeros to hide the content and show progress
+alias del='shred -n 3 -u -v -z'
+#show all active system processes
+alias p='ps -A u x'
+#page through text one screenful at a time
+alias m='more'
+#exit terminal
+alias e='exit'
