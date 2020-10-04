@@ -49,3 +49,7 @@ alias p='ps -A u x'
 alias m='more'
 #exit terminal
 alias e='exit'
+
+###########################################################################
+PI
+#alias temp='/opt/vc/bin/vcgencmd measure_temp'
